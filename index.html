@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hai.Don</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="bahan/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap"
+    rel="stylesheet">
+    <script src="https://use.fontawesome.com/8b069ab84f.js"></script>
+</head>
+<body>
+
+    <!--logo atas-->
+
+    <section class="logo">
+        <nav>
+            <a href="index.html"><img src="bahan/hai 1r.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="story/journey.html">MY STORY</a></li>
+                    <li><a href="gallery/mygalleria.html">MY GALLERY</a></li>
+                    <li><a href="contact/contactbox.html">CONTACT</a></li> 
+                </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!--tampilan utama-->
+
+    <section class="home">
+        <div class="background">
+            <img src="bahan/foto 1.png" >
+        </div>
+        <div class="text">
+            <h1>DONI PINATIH</h1>
+            <h4>Photographer & Videographer</h4>
+        </div>
+    </section>
+
+    <!--page-tentang-->
+
+    <section class="about">
+        <h2>ABOUT</h2>
+        <div class="box-model">
+            <div class="box1">
+                <img src="bahan/141123097_724215921854602_157960700685587949_n.jpg" >
+                <h4><text1>Hai i'm Doni Pinatih</text1><br><br>
+                    My full name is Kadek Doni Pinatih, I come from Bali<br>
+                    and now i live in denpasar,to be exact i live on bla bla bla street
+                    with my family.<br>I am currently studying at a university in Bali and I am studying in the photography 
+                    department to deepen my skills in the field of photography.<br>I really like photography and now this is my main job, 
+                    I've been doing this job for the last 3 years.<br>to see all about my story you can check on My Story site,thank you all <br>
+                </h4>
+            </div>
+        </div>
+        <h5>Click this button to see my CV</h5>
+        <a href="#" class="hero-btn">HERE BRUH</a>
+    </section>
+
+    <!--galeri-->
+
+    <section class="gallery">
+        <h2>PREVIEW</h2>
+        <div class="box2">
+            <h4>Photo Preview</h4>
+            
+                <a href="#"><img src="bahan/IMG_8680.jpg" ></a>
+                <a href="#"><img src="bahan/photo-1432847712612-926caafaa802.jfif" ></a>
+                <a href="#"><img src="bahan/140694833_448184976557875_2439571027198283060_n.jpg" ></a>
+                <a href="#"><img src="bahan/wallpaper-hd-blur-1.jpg" ></a>
+            <div class="more">
+                <a href="#">Photo Gallery</a>
+            </div>
+            <h4>Video Preview</h4>
+                <a href="#"><img src="bahan/photo-1432847712612-926caafaa802.jfif" ></a>
+                <a href="#"><img src="bahan/IMG_8680.jpg" ></a> 
+                <a href="#"><img src="bahan/wallpaper-hd-blur-1.jpg" ></a>
+                <a href="#"><img src="bahan/140694833_448184976557875_2439571027198283060_n.jpg" ></a>
+            <div class="more">    
+                <a href="#" class="more">Video Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!--kontak-->
+
+    <section class="footer">
+        <div class="kakiatas">
+            <h4>FIND ME AT</h4>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram" ></i></a>
+            <a href=""><i class="fa fa-twitter" ></i></a>
+        </div>   
+        <div class="wa">
+            <h4>Contact Person</h4>
+            <p><i class="fa fa-whatsapp"></i>&nbsp;Doni Pinatih</p>
+            <p>089X-XXXX-XXXX</p>
+        </div>
+        <div class="kakibawah">
+            <p>make with love by WinangunWebDesign and NuubLolI Web Builder</p>
+        </div>
+    </section>
+
+    <!--javascript 700 px-->
+
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+            navlinks.style.right= "0"
+        }
+        function hideMenu(){
+            navlinks.style.right= "-200px"
+        }
+    </script>
+    
+</body>
+</html>
